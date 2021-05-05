@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--Mont);
+}
+a {
+    color:var(--dark);
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    width: 100%;
+    display: block;
+}
+button {
+    font-family: inherit;
+    outline:none;
+    
+    
+}
+h1,h2,h3,h4,h5,h6, p {
+    margin: 10px 0;
+}
+.section-py {
+    padding: 80px 0;
+}
+.para-text {
+    color:var(--dark);
+    line-height: 1.7;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+    overflow-x: hidden;
+}
+.btn {
+    background-color: var(--persian-red);
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 19px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    max-width: 150px;
+    transition: var(--transition);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    font-family: var(--julius);
+}
+.btn-menu {
+    max-width: 110px;
+    margin-left: auto;
+}
+.btn:hover {
+    background-color: var(--dark);
+}
+.title {
+    padding: 3px;
+}
+.title h4 {
+    text-transform: uppercase;
+    color:var(--grey);
+    font-size: 13px;
+}
+.title h2 {
+    opacity: 0.9;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-family: var(--julius);
+}
+.slick-dots li button:before {
+    font-size: 40px;
+    opacity: 1;
+    color: #fff;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #c93232;
+}
+@keyframes blurInOut {
+    0%,100% {
+        filter: blur(0);
+    }
+    50% {
+        filter: blur(5px);
+    }
+}
+
